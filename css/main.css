@@ -19,16 +19,25 @@ header.primary {
     text-align: center;
 }
 
-header img {
-    border-radius: 50%;
-}
-
 header h1 {
     font-size: 1rem;
 }
 
 header p {
     line-height: 1.5rem;
+}
+
+header .image-profile-mask {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 50%;
+}
+
+header .image-profile-mask img {
+    width: 100%;
 }
 
 section {
