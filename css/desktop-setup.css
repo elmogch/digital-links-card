@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    width: 90%;
+    display: flex;
+}
+
+.product-image {
+    width: 30%;
+    padding: 10px;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-title {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product-title a {
+    width: 100%;
+    text-align: center;
+}
